@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #020402;
+  --color-surface: #0A0F0C;
+  --color-neon: #00E500;
+  --color-primary: #10B981;
+}
+
+:root {
+  background-color: #020402;
+  color: white;
+}
+body {
+  background-color: #020402;
+  overflow-x: hidden;
+}
+
+/* --- ANIMATED CYBER GRID (NEON BOOSTED) --- */
+.cyber-grid {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  /* Increased opacity to 0.35 for visibility */
+  background-image: 
+    linear-gradient(rgba(0, 229, 0, 0.35) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 229, 0, 0.35) 1px, transparent 1px);
+  background-size: 60px 60px;
+  transform: perspective(500px) rotateX(60deg);
+  animation: grid-move 20s linear infinite;
+  opacity: 0.35; 
+  pointer-events: none;
+  z-index: 0;
+  mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
+}
+
+@keyframes grid-move {
+  0% { transform: perspective(500px) rotateX(60deg) translateY(0); }
+  100% { transform: perspective(500px) rotateX(60deg) translateY(60px); }
+}
+
+/* --- FLOATING GLOW ORBS --- */
+.glow-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.4;
+  animation: float 10s ease-in-out infinite;
+  z-index: 0;
+}
+.orb-1 {
+  width: 400px; height: 400px;
+  background: #00E500;
+  top: -100px; left: 20%;
+  animation-delay: 0s;
+}
+.orb-2 {
+  width: 300px; height: 300px;
+  background: #10B981;
+  top: 100px; right: 20%;
+  animation-delay: -5s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-20px) scale(1.1); }
+}

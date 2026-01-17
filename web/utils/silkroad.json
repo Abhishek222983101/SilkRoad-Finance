@@ -1,0 +1,135 @@
+{
+  "address": "C1gro7yAZrKGp1B13wehgQhvMSTx7UxGt8MWc8ozPB4d",
+  "metadata": {
+    "name": "silkroad",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description": "Created with Anchor"
+  },
+  "instructions": [
+    {
+      "name": "buy_invoice",
+      "discriminator": [
+        214,
+        181,
+        205,
+        125,
+        55,
+        169,
+        121,
+        245
+      ],
+      "accounts": [
+        {
+          "name": "invoice_account",
+          "writable": true
+        },
+        {
+          "name": "investor",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "supplier",
+          "writable": true
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "list_invoice",
+      "discriminator": [
+        14,
+        197,
+        8,
+        166,
+        231,
+        10,
+        164,
+        231
+      ],
+      "accounts": [
+        {
+          "name": "invoice_account",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "supplier",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "amount_in_sol",
+          "type": "u64"
+        },
+        {
+          "name": "borrower_name",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "InvoiceState",
+      "discriminator": [
+        237,
+        250,
+        90,
+        253,
+        235,
+        181,
+        150,
+        94
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": 6000,
+      "name": "AlreadySold",
+      "msg": "This invoice has already been funded!"
+    }
+  ],
+  "types": [
+    {
+      "name": "InvoiceState",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "supplier",
+            "type": "pubkey"
+          },
+          {
+            "name": "price",
+            "type": "u64"
+          },
+          {
+            "name": "borrower_name",
+            "type": "string"
+          },
+          {
+            "name": "is_sold",
+            "type": "bool"
+          },
+          {
+            "name": "new_owner",
+            "type": "pubkey"
+          }
+        ]
+      }
+    }
+  ]
+}
