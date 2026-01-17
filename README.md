@@ -1,9 +1,9 @@
-# ⚡ SilkRoad Finance
+# 🔒 SilkRoad Finance
 
 ### The Decentralized Liquidity Layer for Real-World Assets (RWA) on Solana.
 
-> **Status:** Live on Solana Devnet
-> **Capstone:** Solana Turbine Cohort 2026
+> **Status:** Live on Solana Devnet (https://silk-road-finance.vercel.app/)
+> **Capstone:** Turbine Pre-Builders 2025-26
 
 ## 📖 Executive Summary
 
@@ -75,11 +75,11 @@ To overcome rent costs and contract limitations for micro-transactions, we imple
 
 We are actively researching advanced Solana primitives to scale SilkRoad for institutional use:
 
-### **Phase 2: Privacy & Compression (Q3 2026)**
+### **Phase 2: Privacy & Compression (Q1 2026)**
 * **ZK Compression (Light Protocol):** Implementing Zero-Knowledge proofs to validate invoice authenticity without revealing sensitive client data (e.g., pricing margins) on the public ledger.
 * **State Compression:** Migrating Invoice PDAs to Concurrent Merkle Trees (Bubblegum) to reduce state rent costs by 99.9% for high-volume supply chains.
 
-### **Phase 3: Institutional Standards (Q4 2026)**
+### **Phase 3: Institutional Standards (Q1 2026)**
 * **Token-2022 Extensions:** Implementing `Transfer Hooks` to enforce KYC/AML compliance on the invoice asset itself, ensuring only whitelisted wallets can hold the debt.
 * **Dynamic Yield Pools:** Transitioning from P2P buying to a pooled liquidity model with APY derived from factoring fees.
 
@@ -101,3 +101,7 @@ yarn install
 
 # 4. Run the development server
 yarn dev
+
+## 👨‍💻 Author
+**Abhishek222983101**
+*| Turbine Pre-Builders Capstone | 2025-26*
