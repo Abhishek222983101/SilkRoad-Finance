@@ -1,10 +1,17 @@
-# 🔒 SilkRoad Finance
+# ⚡ SilkRoad Finance
 
-### A Decentralized Liquidity Layer for Real World Assets (RWA) on Solana.
+### The Decentralized Liquidity Layer for Real-World Assets (RWA) on Solana.
+
+![SilkRoad Banner](https://raw.githubusercontent.com/Abhishek222983101/SilkRoad-Finance/main/web/public/arch.png)
+
+<div align="center">
+
+### 🔴 [Click Here to Watch the 1-Minute Walkthrough (Live Demo)](https://www.loom.com/share/960cb85c1e604ae28a15afb865e28c77)
+
+</div>
 
 > **Status:** Live on Solana Devnet (https://silk-road-finance.vercel.app)
 > **Capstone:** Turbine Pre-Builders 2025-26
-> **Demo:** [🔴 Watch 1-Min Walkthrough](https://www.loom.com/share/960cb85c1e604ae28a15afb865e28c77)
 
 ## 📖 Executive Summary
 
@@ -42,8 +49,6 @@ To overcome rent costs and contract limitations for micro-transactions, we imple
 2.  **Settlement Layer (Native Sol):**
     * Executes a direct, atomic system transfer of funds alongside the state transition.
     * Ensures 100% value transfer to the supplier with zero slippage.
-
-![SilkRoad Architecture](https://raw.githubusercontent.com/Abhishek222983101/SilkRoad-Finance/main/web/public/arch.png)
 
 ### **Tech Stack**
 * **Frontend:** Next.js 14, TypeScript, Tailwind CSS, Framer Motion.
