@@ -1,9 +1,9 @@
 # 🔒 SilkRoad Finance
 
-### The Decentralized Liquidity Layer for Real-World Assets (RWA) on Solana.
+### A Decentralized Liquidity Layer for Real World Assets (RWA) on Solana.
 
-> **Status:** Live on Solana Devnet (https://silk-road-finance.vercel.app/)
-> **Capstone:** Turbine Pre-Builders 2025-26
+> **Status:** Live on Solana Devnet (https://silk-road-finance.vercel.app)
+>  **Capstone:** Turbine Pre-Builders 2025-26
 
 ## 📖 Executive Summary
 
