@@ -2,8 +2,6 @@
 
 ### The Decentralized Liquidity Layer for Real-World Assets (RWA) on Solana.
 
-![SilkRoad Architecture](https://raw.githubusercontent.com/Abhishek222983101/SilkRoad-Finance/main/web/public/arch.png)
-
 > **Status:** Live on Solana Devnet
 > **Capstone:** Solana Turbine Cohort 2026
 
@@ -43,6 +41,9 @@ To overcome rent costs and contract limitations for micro-transactions, we imple
 2.  **Settlement Layer (Native Sol):**
     * Executes a direct, atomic system transfer of funds alongside the state transition.
     * Ensures 100% value transfer to the supplier with zero slippage.
+  
+
+![SilkRoad Architecture](https://raw.githubusercontent.com/Abhishek222983101/SilkRoad-Finance/main/web/public/arch.png)
 
 ### **Tech Stack**
 * **Frontend:** Next.js 14, TypeScript, Tailwind CSS, Framer Motion.
