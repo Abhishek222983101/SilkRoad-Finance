@@ -15,7 +15,7 @@
 
 Global suppliers often wait **60-90 days** to get paid for delivered goods (the "Cash Trap"), stifling growth. Traditional banks are slow, expensive, and exclusive. SilkRoad leverages the **Solana blockchain** to turn these unpaid invoices into liquid, tradeable assets, allowing suppliers to access capital instantly via decentralized liquidity pools.
 
-### 🔴 [Click Here to Watch the 3-Minute Walkthrough (Live Demo)](https://www.loom.com/share/960cb85c1e604ae28a15afb865e28c77)
+### 📽️ [Click Here to Watch the 3-Minute Walkthrough (Live Demo)](https://www.loom.com/share/960cb85c1e604ae28a15afb865e28c77)
 
 ## 🛠 Problem & Solution
 
