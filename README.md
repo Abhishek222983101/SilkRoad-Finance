@@ -2,7 +2,7 @@
 
 ### The Decentralized Liquidity Layer for Real-World Assets (RWA) on Solana.
 
-![SilkRoad Banner](web/public/arch.png)
+![SilkRoad Architecture](https://raw.githubusercontent.com/Abhishek222983101/SilkRoad-Finance/main/web/public/arch.png)
 
 > **Status:** Live on Solana Devnet
 > **Capstone:** Solana Turbine Cohort 2026
