@@ -2,8 +2,6 @@
 
 ### The Decentralized Liquidity Layer for Real-World Assets (RWA) on Solana.
 
-![SilkRoad Banner](https://raw.githubusercontent.com/Abhishek222983101/SilkRoad-Finance/main/web/public/arch.png)
-
 <div align="center">
 
 ### 🔴 [Click Here to Watch the 1-Minute Walkthrough (Live Demo)](https://www.loom.com/share/960cb85c1e604ae28a15afb865e28c77)
@@ -40,6 +38,8 @@ This project consists of a **Next.js Frontend** interacting with a custom **Anch
 
 ### **The "State & Settle" Protocol**
 To overcome rent costs and contract limitations for micro-transactions, we implemented a custom **Hybrid Settlement Logic**:
+
+![SilkRoad Banner](https://raw.githubusercontent.com/Abhishek222983101/SilkRoad-Finance/main/web/public/arch.png)
 
 1.  **State Layer (Anchor Program):**
     * Manages the lifecycle of the invoice (Minting, Listing, delisting).
